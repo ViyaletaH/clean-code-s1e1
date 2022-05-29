@@ -22,9 +22,9 @@ body {
 
 @media (max-width: 768px) {
 
-.scheme-name { 
+  .scheme-name { 
     text-align: center; 
-}
+  }
 
 }
 .main-wrapper {
