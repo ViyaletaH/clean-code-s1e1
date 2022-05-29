@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.scheme-name img {
+.matrix {
   width: 100%;
 }
 .scheme-name .more-inf {
@@ -18,7 +18,7 @@ body {
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.aaa { text-align: center; 
 }
 }
 .main-wrapper {
@@ -88,7 +88,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
   text-decoration: line-through
   color: #888;
 }
@@ -138,11 +138,11 @@ ul li input[type="text"] {
   display:none
 }
 
-ul li.edit-mode input[type="text"] {
+.edit-mode input[type="text"] {
   display:inline-block;
   width:224px
 }
 
-ul li.edit-mode label {
+.edit-mode label {
   display:none;
 }
