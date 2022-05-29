@@ -157,7 +157,7 @@ button.delete img:hover {
 
 /* Edit Task */
 ul li input[type="text"] {
-  display:none
+  display: none
 }
 
 .edit-mode input[type="text"] {
