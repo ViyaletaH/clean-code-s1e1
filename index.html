@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body>
+  <header>
   <div class="scheme-name">
       <img class="matrix" src="./eisenhower-matrix.jpg">
       <a class="more-inf" 
@@ -13,14 +14,19 @@
           Want more details?
       </a>
   </div>
+  </header>
+  <main>
   <div class="main-wrapper">
-    <p id="add-item">
+  <section>
+    <div id="add-item">
       <label for="new-task">Add Item</label>
       <div class="task-wrapper">
           <input id="new-task"class="task" type="text">
           <button>Add</button>
       </div>
-    </p>
+    </div>
+  </section>
+  <section>
     <h3>Todo</h3>
     <ul id="incomplete-tasks">
       <li>
@@ -37,6 +43,8 @@
          <button class="delete"><img src="./remove.svg"></button>
       </li>
     </ul>
+  </section>
+  <section>
     <h3>Completed</h3>
     <ul id="completed-tasks">
       <li>
@@ -47,7 +55,9 @@
           <button class="delete"><img src="./remove.svg"></button>
       </li>
     </ul>
+  </section>
   </div>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
